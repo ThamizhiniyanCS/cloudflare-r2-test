@@ -8,6 +8,8 @@
 
 ## Results
 
+> NOTE: All of the following results are based on the `.github/workflows/deploy.yml` file present in this repo.
+
 ### It uploads also the `.git` directory to Cloudflare
 
 - Fix: Create a directory like `contents` in the root of the repo and put all the contents inside it and set the `source-dir` in the `deploy.yml` to `contents`
