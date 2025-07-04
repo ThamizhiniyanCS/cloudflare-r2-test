@@ -16,4 +16,4 @@ jobs:
           SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
           ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
         with:
-          args: --overwrite --remove
+          args: --overwrite --remove --checksum
